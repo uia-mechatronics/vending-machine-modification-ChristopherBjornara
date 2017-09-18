@@ -4,11 +4,6 @@
 #include <soda.h>               // Include Soda class header (makes class declaration visible).
 #include <vendingmachine.h>     // Include VendingMachine clase header (makes class declaration visible).
 
-
-// This is a C++ style comment. Compiler will ignore all comments.
-
-
-// The C++ program starts execution here.
 int main()
 {
     // Print a message at startup.
@@ -21,10 +16,9 @@ int main()
 
     // Create a cola object. Constructor will be called with given parameters.
     Soda cola("Colabrus", 34, 4);
-    // We have a variable named cola with Soda as its data type.
-
     Soda urge("Urge", 19, 50);
     Soda villa("Villa", 19, 35);
+    Soda epleMost("Eplemost", 69, 5);
 
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
