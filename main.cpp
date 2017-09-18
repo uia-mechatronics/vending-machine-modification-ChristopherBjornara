@@ -19,11 +19,14 @@ int main()
     Soda urge("Urge", 19, 50);
     Soda villa("Villa", 19, 35);
     Soda epleMost("Eplemost", 69, 5);
+    Soda mojito("Mojito", 39, 70);
 
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
     vendingMachine.addType(urge);
     vendingMachine.addType(villa);
+    vendingMachine.addType(epleMost);
+    vendingMachine.addType(mojito);
     // Print inventory using public printInventory member function (method).
     vendingMachine.printInventory();
 
